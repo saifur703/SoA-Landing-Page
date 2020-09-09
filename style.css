@@ -93,7 +93,7 @@ p {
 .header-right {
   position: relative;
   z-index: 1;
-  padding-left: 50px;
+  padding-left: 60px;
   font-size: 14px;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
@@ -102,9 +102,13 @@ p {
 .whatsUp-call {
   position: absolute;
   left: 0;
-  top: 10px;
+  bottom: 0;
   font-size: 40px;
   color: #000;
+}
+
+.whatsUp-call img {
+  max-width: 45px;
 }
 
 .welcome-left {
@@ -179,7 +183,7 @@ p {
   margin: 10px 0;
 }
 
-.single-input i.fa {
+.single-input img {
   position: absolute;
   left: 10px;
   top: 10px;
@@ -187,8 +191,8 @@ p {
   font-size: 30px;
 }
 
-.single-input i.fa-paper-plane {
-  left: 65%;
+.single-input img.submit-rocket {
+  left: 60%;
   color: #fff;
 }
 
@@ -215,11 +219,15 @@ input[type="submit"] {
   top: -5px;
 }
 
+.view-product span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .view-product {
   font-size: 19px;
   font-weight: 700;
   position: relative;
-  padding-left: 55px;
   margin-top: 70px;
   display: inline-block;
   color: #000;
@@ -270,12 +278,13 @@ input[type="submit"] {
   position: relative;
   z-index: 1;
   margin-bottom: 50px;
+  font-size: 19px;
 }
 
 .long-arrow {
   position: absolute;
   right: -30px;
-  bottom: 0;
+  bottom: 30px;
   font-size: 30px;
   width: 30px;
   height: 40px;
@@ -441,7 +450,7 @@ input[type="submit"] {
   background: #000;
   color: #fff;
   font-size: 20px;
-  padding: 10px 50px;
+  padding: 15px 50px;
   display: inline-block;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -457,7 +466,7 @@ input[type="submit"] {
   color: #000;
 }
 
-.boxed-btn i.fa {
+.boxed-btn img {
   display: inline-block;
   padding-left: 10px;
 }
