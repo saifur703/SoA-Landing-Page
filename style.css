@@ -1,0 +1,500 @@
+/*=================================
+Author: Md Saifur Rahman
+Updated: 09 September, 2020
+Notes: Hand Coded for fiverr.com/saifurpro
+===================================*/
+
+/*------Start Base CSS------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  color: #333;
+  text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 0 solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.fix:before,
+.fix:after {
+  content: '';
+  display: table;
+}
+
+.fix:after {
+  clear: both;
+}
+
+/*------End Base CSS------*/
+
+/* Header CSS Start */
+.header {
+  padding: 15px 0;
+}
+
+.logo img {
+  width: 120px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.header-right {
+  position: relative;
+  z-index: 1;
+  padding-left: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.whatsUp-call {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-size: 40px;
+  color: #000;
+}
+
+.welcome-left {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+.header-right p {
+  margin-bottom: 0;
+}
+
+.header-right h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header CSS End */
+
+/* Welcome Area CSS Start */
+.welcome-area {
+  background: #a8dadc;
+  padding: 70px 0;
+  padding-top: 110px;
+  position: relative;
+  z-index: 1;
+}
+
+.header.header-absolute {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.welcome-right h1 {
+  font-size: 35px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.welcome-right {
+  color: #000;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.welcome-form {
+  margin-top: 50px;
+}
+
+.welcome-form h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.welcome-form input {
+  width: 100%;
+  border: none;
+  display: inline-block;
+  padding: 10px 20px 10px 50px;
+  border-radius: 5px;
+}
+
+.single-input {
+  position: relative;
+  margin: 10px 0;
+}
+
+.single-input i.fa {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #909090;
+  font-size: 30px;
+}
+
+.single-input i.fa-paper-plane {
+  left: 65%;
+  color: #fff;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.view-product i.fa {
+  border: 1px solid #000;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 38px;
+  font-size: 30px;
+  color: #000;
+  display: inline-block;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+
+.view-product {
+  font-size: 19px;
+  font-weight: 700;
+  position: relative;
+  padding-left: 55px;
+  margin-top: 70px;
+  display: inline-block;
+  color: #000;
+}
+
+.view-product:hover {
+  color: #000;
+}
+
+/* Welcome Area CSS End */
+
+/* Welcome Bottom CSS Start */
+.welcome-bottom {
+  padding: 70px 0;
+}
+
+.welcome-bottom-left {
+  margin-right: 40px;
+}
+
+.welcome-bottom-right h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+}
+
+.welcome-bottom-right {
+  font-size: 19px;
+  color: #000;
+}
+
+/* Welcome Bottom CSS End */
+
+/* Popular Products CSS Start */
+
+.popular-products-area {
+  background: #f0f4f5;
+  padding: 70px 0;
+}
+
+.section-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section-title {
+  color: #000;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+
+.long-arrow {
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+  font-size: 30px;
+  width: 30px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.long-arrow a {
+  color: #030504;
+}
+
+.popular-products h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+  padding-left: 70px;
+  margin-bottom: 35px;
+}
+
+.popular-products h3::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  width: 50px;
+  height: 2px;
+  background: #000;
+  margin-top: -1px;
+}
+
+.single-popular-product {
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.popular-product-text {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.popular-product-text span {
+  font-size: 60%;
+}
+
+/* Popular Products CSS End */
+
+/* Featured Product CSS Start */
+.featured-products-area {
+  background: #e2eaeb;
+  padding: 70px 0;
+}
+
+.featured-products h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+  padding-left: 70px;
+  margin-bottom: 35px;
+}
+
+.featured-products h3::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  width: 50px;
+  height: 2px;
+  background: #000;
+  margin-top: -1px;
+}
+
+.single-featured-product {
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.featured-product-text {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.featured-product-text span {
+  font-size: 60%;
+}
+
+/* Featured Product CSS End */
+
+/* Owl Controls CSS Start */
+.owl-controls .owl-dots div {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border: 2px solid #000;
+  margin: 0 10px;
+  margin-top: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.owl-controls .owl-dots {
+  text-align: center;
+}
+
+.owl-controls .owl-dots div.active {
+  background-color: #000;
+}
+
+.owl-controls .owl-nav div {
+  position: absolute;
+  left: -60px;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  background: #fff;
+  color: #000;
+  margin-top: -20px;
+  border-radius: 5px;
+}
+
+.owl-controls .owl-nav div.owl-next {
+  left: auto;
+  right: -60px;
+}
+
+.owl-controls .owl-nav div:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Owl Controls CSS End */
+
+/* Special Idea CSS Start */
+.special-idea-area {
+  background: #93d6e2;
+  padding: 70px 0;
+}
+
+.special-idea-left h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+}
+
+.boxed-btn {
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 50px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.boxed-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.boxed-btn i.fa {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.special-idea-left {
+  color: #000;
+  font-size: 19px;
+  margin-right: 30px;
+  padding: 75px 0;
+}
+
+/* Special Idea CSS End */
+
+/* Footer CSS Start */
+.footer-area {
+  background: #000;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.single-footer-item h4 {
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.single-footer-item {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.single-footer-item img {
+  margin-top: 30px;
+}
+
+/* Footer CSS End */
+
+.mobile-view {
+  display: none;
+}
